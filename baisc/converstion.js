@@ -24,3 +24,4 @@ console.log(booleanIsLoggedIn);
 let someNUmber = 15;
 let stringNubmer =String(someNUmber);
 console.log( typeof stringNubmer);
+
