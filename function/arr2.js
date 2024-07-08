@@ -17,6 +17,39 @@ const dc_heros =["superman", "flash", "batman"];
 // console.log(real_another_array);
 
 
-console.log(Array.isArray("priyanka"))
+// console.log(Array.isArray("priyanka"))
 
-console.log(Array.from("priyanka"))
+// console.log(Array.from("priyanka"))
+
+
+//array mothods
+
+//push():add to end
+
+let number= [7,5,8,5,4,3,9];
+
+// number.push(10);
+ let deleted =number.pop();      //pop delete from end and return 
+
+// console.log(number);
+// console.log(deleted);
+
+//tostring  =>convert array to string
+
+let fooditems=["potato","apply","litchi", "tomato"];
+// console.log(fooditems);
+// console.log(fooditems.toString());
+
+//concat
+
+//create an array to store companies =>
+
+    let companies=["bloomberg", "Microsoft", "uber","Google","IBM","Netfilx"]
+
+    // companies.shift(companies[0]);
+
+    companies.splice(2, 1, "ola");
+
+    companies.push("Amazon");
+
+    console.log(companies);
