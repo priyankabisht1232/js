@@ -53,15 +53,15 @@ const users =[
 
 ]
 users[1].email
-// console.log(tinderUser);
+console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
 
-// console.log(Object.entries(tinderUser));
-// console.log(tinderUser.hasOwnProperty('isloggedIn'));
+console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('isloggedIn'));
 
-// console.log(tinderUser.propertyIsEnumerable());
+console.log(tinderUser.propertyIsEnumerable());
 
     
 //de stucture
@@ -77,7 +77,7 @@ const course = {
 const {courseInSturctor :inStructor} = course
 
 // console.log(courseInSturctor);
-console.log(inStructor);
+// console.log(inStructor);
 
 //JSON
 
@@ -86,3 +86,15 @@ console.log(inStructor);
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
+const employee ={
+    calTax (){
+        console.log("tax rate is 10%");
+    },
+};
+
+const karna ={
+    salary: 5000
+
+}
+
+karna.__proto__
