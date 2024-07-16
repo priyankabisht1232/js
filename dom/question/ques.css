@@ -1,0 +1,21 @@
+/* .content{
+    color: red;
+}
+.newClass{
+    background-color: green;
+
+} */
+
+/* .bg-black{
+    background: #212121;
+    color:#fff
+}
+    */
+body{
+    background-color: #212121;
+} 
+
+.day{
+    background-color: #212121;
+    color: #fff;
+}
